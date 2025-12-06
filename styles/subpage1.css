@@ -6,6 +6,26 @@ body{
     font-family: "Playfair Display", "Playfair Display SC";
 }
 
+/* main */
 .browse {
+    width: 800px;
+    margin: 0 auto;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    justify-items: center;
+    align-items: center;
+}
+
+#description {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#description-image {
+    width: 200px;
+    border-radius: 8px;
 }
